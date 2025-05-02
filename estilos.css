@@ -203,7 +203,13 @@ LOADER */
     color: #fff;
 
 }
-
+.textos-header {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
  .pensamiento {
     
@@ -248,7 +254,15 @@ h4{
 
     font-family: 'Dancing Script', cursive;
 }
+.cumpleaños{
+    width: 30%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display:block;
 
+   
+}
 
 .card{
  
@@ -362,8 +376,10 @@ h4{
     align-items: center;
     flex-wrap: wrap;
 }
-
-
+.animacion{
+    width: 40%;
+    animation: movimiento 2.5s linear infinite;
+}
 .contenedor-servicio img{
     width: 40%;
     animation: movimiento 2.5s linear infinite;
@@ -470,15 +486,24 @@ h4{
     cursor: pointer;
 }
 
-.experts{
-    width: 100%;
+
+.padres{
+    height: auto;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background: #d1d08b88;
+
     border-radius: 30px;
 }
+
+
+
 
 .chambelan{
     width: 100%;
@@ -501,6 +526,7 @@ h4{
     width: 80%;
 }
 .cont-expert{
+
     width: 30%;
     text-align: center;
     margin-bottom: 20px;
@@ -512,12 +538,22 @@ h4{
     margin: auto;
     width: 80%;
 }
+.n-padres{
+    color:#ffffffec;
+    font-size: 25px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 400;
+    
+}
 
 .n-expert{
     width: 100%;
     display: inline-block;
     margin-top: 20px;
     font-weight: 400;
+    
 }
 
 footer{
