@@ -1,0 +1,43 @@
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.volumen{
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom: 60px;
+	right: 15px;
+	background-color: #ffffff;
+	padding: 5px;
+
+	border-radius: 50%;
+	/* z index lo pone al frente de todo el contenido */
+	z-index:100;
+	/* le da suavidad a pasar el mouse  */
+	transition: ease 0.3s;
+}
+.volumen:hover{
+	transform:  scale(1.1);
+}

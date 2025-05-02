@@ -1,0 +1,92 @@
+
+
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	justify-content: center;
+
+	/* establece el espacio requerido en la parte inferior de un elemento */
+	margin-bottom: 20px;
+
+}
+
+.simply-section {
+	
+	width: 250px;
+	height: 250px;
+	/* borde entre bloques */
+	margin: 0 10px;
+	border-radius: 50px;
+	display: block;
+	align-items: center;
+
+	background-color: rgba(134, 122, 7, 0.397);
+	text-align: center;
+	border-radius: 50%;
+
+}
+
+.simply-amount {
+	/* se comporte como bloque */
+	display: block;
+	font-size: 100px;
+	font-weight: 400px;
+	color: white;
+	font-family: "Brush Script MT", "Courier New", monospace;
+	text-align: center;
+	
+}
+
+.simply-word {
+	font-weight: 200;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+
+
+/* ? ---------------------------- */
+
+
+@media screen and (max-width:500px){
+
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	
+}
+
+.simply-section {
+	
+	width: 90%;
+	height: 100px;
+	margin: 0 4px;
+	border-radius: 25px;
+	border-color: rgb(126, 128, 14);
+	border-width: 2px;
+	border-style: solid;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 30px;
+	font-weight: 800;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+
+.simply-word {
+	font-weight: 400;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+}
