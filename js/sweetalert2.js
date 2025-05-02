@@ -26,7 +26,7 @@ Swal.fire({
 		$('.volumen').attr("src","img/no-sound.png");
 		$('div').removeClass('visible')
 		
-		$( "#onload" ).fadeOut(5000);
+		$( "#onload" ).fadeOut(3000);
 		$("body").removeClass("hidden");
 
 
