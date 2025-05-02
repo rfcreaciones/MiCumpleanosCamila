@@ -348,7 +348,8 @@ h4{
 
 
 .Jokerman {
-    font-family: "Jokerman", cursive;
+
+    font-family: 'Jokerman', sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 40px;
