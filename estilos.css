@@ -304,7 +304,7 @@ h4{
 /* TEXTOS DEL SW ALERT EN EL JAVA SCRIPT */
 
 .textos-alert-inicio{
-    font-size: 25px;
+    font-size: 33px;
     font-weight:lighter;
     color:#000000;
     font-family: 'Dancing Script', cursive;
@@ -319,8 +319,8 @@ h4{
 }
 
 .textos-alert-inicio-T3{
-    font-size: 15px;
-    font-weight:lighter;
+    font-size: 14px;
+    
     color:#000000;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;

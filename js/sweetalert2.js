@@ -5,7 +5,7 @@
 Swal.fire({
 	// title:'Reserva el Día',
 	//text: '',
-	html:'<p class="textos-alert-inicio">Claudia Ventura Reyes</p><br><p class="textos-alert-inicio">Tiene el honor de invitar a usted y a su apreciable familia al 4° Aniversario de su hija:</p><br><p class="textos-alert-inicio-T2">Camila Alejandra Ensástigue Ventura</p></div>',
+	html:'<p class="textos-alert-inicio">Claudia Ventura Reyes</p><br><p class="textos-alert-inicio-T3">Tiene el honor de invitar a usted y a su apreciable familia al 4° Aniversario de su hija:</p><br><p class="textos-alert-inicio-T2">Camila Alejandra Ensástigue Ventura</p></div>',
 	//icon:'success'
 	confirmButtonText:'Abrir Invitación',
 	confirmButtonColor: "#cdec06",
